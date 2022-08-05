@@ -1,0 +1,22 @@
+.button-delete {
+    height: 80px;
+    display: flex;
+    width: 85px;
+    /* flex: 1 1; */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .button-delete:hover {
+    background-color: yellow;
+  }
